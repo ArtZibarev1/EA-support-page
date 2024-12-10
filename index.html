@@ -5,29 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Support Page</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
+        /* Общие стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        h1 {
+
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
             color: #333;
         }
-        a {
-            color: blue;
-            text-decoration: none;
+
+        .container {
+            max-width: 500px;
+            width: 90%;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
         }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #007BFF;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
         a:hover {
-            text-decoration: underline;
+            color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <h1>Support Page</h1>
-    <p>Welcome to the support page for our app. If you have any questions, please contact us:</p>
-    <ul>
-        <li>Email: <a href="mailto:support@example.com">support@example.com</a></li>
-        <li>FAQ: <a href="https://example.com/faq" target="_blank">Visit our FAQ</a></li>
-    </ul>
+    <div class="container">
+        <h1>Support Page</h1>
+        <p>If you have any questions or need assistance, feel free to contact us:</p>
+        <ul>
+            <li>Email: <a href="mailto:art.zibarev1@gmail.com">art.zibarev1@gmail.com</a></li>
+        </ul>
+    </div>
 </body>
 </html>
